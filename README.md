@@ -10,18 +10,18 @@
     
     [참고] 매직넘버(#!/bin/bash)
     
-    2.주석처리
+2.      주석처리
     
     - 한줄 주석            #
     - 여러줄 주석          : << EOF ~ EOF
     
-    3.입력 & 출력
+3.       입력 & 출력
     
     출력 : echo CMD , printf CMD
     
     입력 : read CMD
     
-    1. 산술연산
+4.      산술연산
     
     expr 1 + 2 
     
@@ -33,7 +33,7 @@
     
     expr 10 % 3     나머지
     
-    1. 조건문:if문, case문
+5.      조건문:if문, case문
     
     if구문
     
@@ -54,10 +54,10 @@
 
   case 문
 
-case VAR in
+    case VAR in
 
-조건1) statement1 ;;
+    조건1) statement1 ;;
 
-조건2) statement2 ;;
+    조건2) statement2 ;;
 
-*)    statement3 ;;
+    *)    statement3 ;;
